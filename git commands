@@ -1,0 +1,9 @@
+git init  -to initialise a folder to git (one time only)
+
+git status - to view anything is there to push to git 
+
+git add . -add all file to local machine
+
+git commit -m "message" -commits to git 
+
+

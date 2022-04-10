@@ -1,0 +1,90 @@
+   
+   
+   
+          			Angular Basic Commands
+          		--------------------------------------	
+
+-->To create angular project - ng new project_name/ng new project_name --routing 
+
+-->To run angular project - ng serve/ng serve --open
+
+-->To create componet - ng g c component_name
+-->To create services - ng g s service_name
+
+                          Angular Basics   
+                ------------------------------------
+           1)Modules - to import libraries - root module -AppModule
+
+                     -third party modules are imported to appModule
+
+           2)Component - to get (HTML,CSS,TS)
+           3)Data Binding - data sharing b/w ts and html
+           
+             **)ts file - compoent
+             **)html file -view
+
+
+             3.1)One way binding - data sharing in one direction only
+
+                3.1.1)Component to view
+             
+                      3.1.1.1) String interpolation -syntax:{{variable_name}}
+                
+                      ** to get data defined in component to view
+                
+                      3.1.1.2) Property binding - syntax: [attribute_name]="property_name"
+                
+                       eg:attribute-name=place holder ,property neme=accno
+                       [place holder]="accno"   :accno="please enter account number !!!"
+                
+                3.1.2) view to component
+             
+                     3.1.2.1)Event binding - syntax : (event_name)="function_name()"  
+                       
+                            eg:(click)="login()"
+                       
+                     3.1.2.2)Event binding using $event - syntax: "(event_name)="function_name($)"      
+
+                     3.1.2.3)Template reference variable - syntax : #referencing_variable_name
+
+
+             3.2)Two way binding  - Data sharing in both direction
+
+                3.2.1)Binding using ngModel -
+
+                      -import FormsModule in AppModule (app.modules.ts) 
+                      
+                      -syntax : [(ngModel)]="variable_name"  ;
+                         **variable_name should defined in ts file
+
+
+          4)ngSubmit - to submit the form . syntax: (ngSubmit)="function_name()"   
+
+          5)set path for an html page -app.module.ts ,syntax: {path,component}
+
+                                    (i)  to set path open app-routing.module.ts file
+                                    (ii) in the array add path as objects 
+
+                                        eg:const routes: Routes = [
+                                                 //login path
+
+                                          {path:'',component:LoginComponent},    
+                                   //if we give path login then we need to specify localhost:4200/login to see login
+  
+                                          // dashboard path
+
+                                        {path:'dashboard',component:DashboardComponent}
+                                      ];
+        
+                                   (iii) then change the browser view page in app.component.html to 
+                                   <router-outlet></router-outlet> ; this will change the page with 
+                                   user requesting.
+
+          6)Dependency injection - makes possibles communication b/w two components classes 
+                                                  
+                                                  or
+
+                                   to share data b/w independend classes
+
+          7)Angular services -                                          
+
