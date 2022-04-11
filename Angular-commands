@@ -1,6 +1,4 @@
    
-   
-   
           			Angular Basic Commands
           		--------------------------------------	
 
@@ -86,5 +84,16 @@
 
                                    to share data b/w independend classes
 
-          7)Angular services -                                          
+          7)Angular services -    To hold redundent data that is to remove duplicate coding the same code
+
+          8)Angular Forms -
+
+               8.1) Template driven Forms -first design html file
+
+              8.2) Model driven Forms - first create model in .ts file
+
+                     8.2.1)Reactive Forms - Add validations to the forms :
+                                          - import ReactiveFormsModule in AppModule,{ form group,form Araray,form Control }
+
+                            8.2.1.1)
 
