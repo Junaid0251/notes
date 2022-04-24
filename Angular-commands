@@ -101,4 +101,8 @@
               9.1)Component Directives
 
               9.2)Structural Directives - Add or remove elements from DOM - syntax: *directive_name="conditon"
+                 
+                 9.2.1)ngIf -syntax: *ngIf="condition"
+                 
+                 9.2.2)ngFor -syntax: *ngFor= "let iterator_name of array_name"
 
