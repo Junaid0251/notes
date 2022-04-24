@@ -6,4 +6,4 @@ git add . -add all file to local machine
 
 git commit -m "message" -commits to git 
 
-
+git push file_name baranch_name
