@@ -1,0 +1,48 @@
+
+
+
+                                                    NODE JS --Server Side Technology
+                                    ----------------------------------------------------------------
+
+
+
+                                                         Basic Commands
+                                              ---------------------------------------
+
+          1) To create package.json - npm init
+
+          2) To install expres  -npm i express
+
+          3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         Basic Concept     
+                                         --------------------------------------------
+
+
+
+                                          1)create a folder 
+
+                                          2)create a package.json
+
+                                          3)create index.js file
+
+                                          4)install express
+
+                                          5)import express in index.js
+
+                                          6)create app using express
+
+                                          7)define port number for server                                                                                    

@@ -106,3 +106,15 @@
                  
                  9.2.2)ngFor -syntax: *ngFor= "let iterator_name of array_name"
 
+              10) Local Storage 
+
+                10.1)setItem - To store data in local storage
+
+                10.2)getItem - To get an item from local storage
+
+                10.3)removeItem - To remove item from local storage
+
+              11)Angular Pipes - To convert data to another format
+
+              12)Parent and child communication - Input decorator    
+
